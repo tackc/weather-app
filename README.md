@@ -1,3 +1,5 @@
+This Weather App is intended to serve as an example for SPA project organization & is based off [this article](https://medium.com/@konstantin.muenster/how-to-plan-and-organize-a-react-project-by-building-a-weather-app-95175b11bd01)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
