@@ -9,7 +9,7 @@ Even though almost everything is called a component in React, I use a more preci
 ### Containers
 As a third and last type of component, there are containers. Containers are our state-managing components. They are at the very top of our hierarchy and usually consist of several components. In our project, we only have one container, our app container/component. Yet, I wanted to add it in a separate folder so you can see how our final folder structure looks like in the end.
 
-
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
