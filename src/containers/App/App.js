@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+
+import { MoonLoader } from 'react-spinners';
+
+import classes from './App.module.css';
+import Card from '../../elements/Card/Card';
 
 function App() {
   return (
