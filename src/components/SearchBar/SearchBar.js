@@ -7,21 +7,19 @@ import Button from '../../elements/Button/Button';
 const searchBar = (props) => {
     return(
         <div className={classes.SearchBarWrapper}>
-            <InputField 
+            <InputField
                 type="text"
                 name="city"
                 label="Location"
-                placeholder="Enter a city"
-                value={props.value}
-                handleChange={props.onChangeHandler}
-                error={props.error}
-            />
+                placeholder="Enter a city" 
+                value={props.value} 
+                handleChange={props.onChangeHandler} 
+                error={props.error} />
             <Button 
-                name="searchSubmit"
-                type="submit"
+                name="searchSubmit" 
+                type="submit" 
                 position="onForm"
-                clicked={props.onClickHandler}
-            >Set</Button>
+                clicked={props.onClickHandler}>Set</Button>
         </div>
     );
 }
